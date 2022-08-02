@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+
+main {
+  width: 25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+form {
+  box-shadow: 0 0 .62rem rgba(0, 0, 0 , .9);
+  border: .1px solid black;
+  border-radius: .37rem;
+  padding-top: .62rem;
+  background-color: rgb(216, 135, 78);
+  padding: 5rem 3.75rem;
+}
+
+form > * {
+  text-align: center;
+}
+
+form > div:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+div > input {
+  border-radius: .2rem;
+  padding: .6rem;
+  padding-right: 6.2rem;
+  border: .06rem solid black;
+  outline: transparent;
+}
+
+div [type="submit"] {
+  margin-top: .93rem;
+  padding: .75rem 3rem;
+  text-transform: uppercase;
+  background-color: rgb(23, 11, 78);
+  box-shadow: 0 0 .12rem rgba(0, 0, 0 , .8);
+  color: white; 
+  transition: transform .5s;
+  cursor: pointer;
+}
+
+div [type="submit"]:hover{
+transform: scale(1.04);
+}
+
+div [type="submit"]:active{
+  transform: scale(1);
+}
+  
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+
